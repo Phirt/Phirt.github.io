@@ -1,0 +1,95 @@
+.headerBackground {
+    background-color: #72b7fc; /* Orange */
+    color: #ffffff;
+    padding: 50px; 
+    margin-bottom: 25px;
+}
+
+.barMargin {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.barTextSize {
+    font-size: 25px;
+}
+
+.buttonSize {
+    padding: 12px;
+}
+
+.plus {
+  width:50px;
+  height:50px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #bee6fd;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+.container {
+  width: auto;
+  max-width: 680px;
+  padding: 0 15px;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+.buttonspaces li {
+    margin-left: 10px;
+    float: right;
+}
+
+[type="date"] {
+  background:#fff url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.png)  97% 50% no-repeat ;
+}
+[type="date"]::-webkit-inner-spin-button {
+  display: none;
+}
+[type="date"]::-webkit-calendar-picker-indicator {
+  opacity: 0;
+}
+
+.nav {
+    position: relative;
+    top: 50px;
+    right: 15px
+}
+
+.mellemrum textarea {
+    margin-bottom: 10px; 
+}
+
+.dropdown-header {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.borderless > td {
+  border: none !important;
+}
